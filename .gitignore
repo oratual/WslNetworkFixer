@@ -1,0 +1,32 @@
+# Executables
+*.exe
+*.msi
+*.dll
+
+# Backup files
+*.backup
+*.backup_*
+.wslconfig.backup*
+
+# Logs
+*.log
+logs/
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+dist/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+test-results/
+coverage/
