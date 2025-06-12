@@ -13,6 +13,12 @@ Fix WSL2 network connectivity issues with Windows host. Solves the common `ERR_N
 3. Restart WSL: `wsl --shutdown`
 4. Access your services via `localhost`!
 
+## ✅ Verified Working Solution
+
+**This solution has been tested and confirmed working** on Windows 11 with WSL2 v2.5.7.0 (June 2025).
+
+See [VERIFIED-SOLUTION.md](docs/VERIFIED-SOLUTION.md) for detailed test results.
+
 ## 🔧 What it does
 
 This tool configures WSL2 with `networkingMode=mirrored`, which:
